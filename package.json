@@ -1,0 +1,17 @@
+{
+	"name": "automated-eod",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"pretty": "^2.0.0",
+		"puppeteer": "^13.7.0"
+	}
+}

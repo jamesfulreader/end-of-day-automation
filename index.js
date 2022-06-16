@@ -71,21 +71,28 @@ const beginEOD = async () => {
 			await page.select("select", "10")
 			getAllTime = await getAllLogs(page)
 			getTodaysTime = filterTodaysLogs(getAllTime)
+			console.log(getTodaysTime)
+
 			break
 		case "25":
 			await page.select("select", "25")
 			getAllTime = await getAllLogs(page)
 			getTodaysTime = filterTodaysLogs(getAllTime)
+			console.log(getTodaysTime)
+
 			break
 		case "50":
 			await page.select("select", "50")
 			getAllTime = await getAllLogs(page)
 			getTodaysTime = filterTodaysLogs(getAllTime)
+			console.log(getTodaysTime)
+
 			break
 		case "100":
 			await page.select("select", "100")
 			getAllTime = await getAllLogs(page)
 			getTodaysTime = filterTodaysLogs(getAllTime)
+			console.log(getTodaysTime)
 			break
 	}
 

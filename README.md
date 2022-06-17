@@ -1,8 +1,7 @@
 # End of Day Automation Script
 Script to pull list of tasks from time tracking software using Nodejs and Puppeteer
 
-## Technologies
-* Nodejs 16.15.1
+## Technologie
 * Puppeteer 13.7.0
 
 ## Setup
